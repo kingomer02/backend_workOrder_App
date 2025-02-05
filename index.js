@@ -118,6 +118,4 @@ app.get('/pdfs/:filename', (req, res) => {
 
 const port = process.env.PORT || 3000;
 
-server.listen(port, () => {
-    console.log(`Server at http://localhost:${port}`);
-});
+server.listen(port, () => {});
