@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 const server = http.createServer(app);
 app.use(cors({
-  origin: 'http://localhost:5173',  // Erlaube Frontend-URL
+  origin: 'https://ska-work-order.vercel.app',  // Erlaube Frontend-URL
   methods: ['GET', 'POST']
 }));
 
