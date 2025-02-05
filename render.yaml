@@ -1,0 +1,10 @@
+services:
+  - name: backend-work-order-app
+    type: web
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_VERSION
+        value: 20
