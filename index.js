@@ -18,7 +18,7 @@ app.use(cors({
 
 const io = new Server(server, {
   cors: {
-    origin: '*',
+    origin: 'https://ska-work-order.vercel.app',
     methods: ["GET", "POST"]
   }
 });
