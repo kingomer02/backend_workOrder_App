@@ -15,7 +15,7 @@ export async function scrapeData(work_orders, socket, userDir) {
   const password = process.env.PASSWORD;
   const loginPageUrl = process.env.PAGE_URL;
   const workOrderUrl = process.env.WORK_ORDER_URL;
-
+ 
   try {
     const downloadPath = path.resolve(path.join(userDir, "/old_pdfs"));
 
